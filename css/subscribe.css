@@ -1,0 +1,17 @@
+.hero__container {
+  background-image: url('../images/plan/desktop/image-hero-blackcup.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--light-cream-bg);
+  padding: 134px 100px;
+  margin-bottom: 160px;
+}
+
+.hero__title {
+  margin-bottom: 32px;
+}
+
+.hero__text {
+  width: 444px;
+  opacity: 0.8;
+}
