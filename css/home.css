@@ -23,7 +23,7 @@
   opacity: 0.8;
 }
 
-.hero__btn:active {
+.hero__btn:hover {
   background-color: #66D2CF;
 }
 
