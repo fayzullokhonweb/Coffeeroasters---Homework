@@ -116,6 +116,10 @@
 
 .promo__item {}
 
+address {
+  font-style: normal;
+}
+
 .promo__item-img {
   margin-bottom: 46px;
 }
@@ -126,6 +130,14 @@
 
 .promo__item-text {
   width: 285px;
+}
+
+.promo__phone {
+  color: inherit;
+}
+
+.promo__phone:hover {
+  color: var(--button-hover)
 }
 
 /* PROMO END */
