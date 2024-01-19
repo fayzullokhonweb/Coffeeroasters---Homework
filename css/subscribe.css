@@ -1,3 +1,4 @@
+/* HERO START */
 .hero__container {
   background-image: url('../images/plan/desktop/image-hero-blackcup.jpg');
   background-repeat: no-repeat;
@@ -15,3 +16,62 @@
   width: 444px;
   opacity: 0.8;
 }
+
+/* HERO END */
+/* WORKS START */
+
+.works__container {
+  background-color: var(--footer-bg);
+  padding: 100px 100px;
+  margin-bottom: 168px;
+  color: var(--light-cream-bg);
+}
+
+.works__box {
+  margin-bottom: 67px;
+}
+
+.works__box-img {
+  display: flex;
+  gap: 349px;
+  margin-bottom: -15.5px;
+  background-color: var(--footer-bg);
+  margin-bottom: ;
+}
+
+.works__box-line {
+  margin-left: 15.5px;
+  width: 760px;
+  height: 1px;
+  background-color: #FDD6BA;
+  color: #FDD6BA;
+}
+
+.works__list {
+  display: flex;
+  gap: 95px;
+}
+
+.works__item {
+  width: 285px;
+}
+
+.works__item-number {
+  color: #FDD6BA;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 72px;
+  margin-bottom: 38px;
+}
+
+.works__item-title {
+  width: 255px;
+  margin-bottom: 43px;
+}
+
+.works__container a {
+  margin-bottom: 200px;
+}
+
+/* WORKS END */
