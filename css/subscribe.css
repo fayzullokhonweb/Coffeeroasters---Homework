@@ -74,3 +74,148 @@
 }
 
 /* WORKS END */
+
+
+
+.child {
+  display: flex;
+  flex-direction: column;
+  gap: 49px;
+}
+
+.child__title {
+  transition: 0.8;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+
+.child__title span:hover {
+  opacity: 1;
+  color: var(--dark-cyan);
+}
+
+.child__title:hover {
+  color: #000;
+  ;
+}
+
+.child__title:active {
+  opacity: 1;
+}
+
+
+
+.child__item {}
+
+
+
+
+
+/* ACCORDION START  */
+.parents {
+  display: flex;
+  padding-left: 100px;
+  padding-right: 100px;
+  gap: 125px;
+}
+
+.parents__wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 730px;
+  gap: 88px;
+
+}
+
+.accordion__wrapper.active .accordion__list {
+  max-height: 360px;
+}
+
+
+.child {
+  width: 255px;
+}
+
+.accordion {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.accordion__wrapper.active svg {
+  transform: rotate(180deg);
+}
+
+svg {
+  transition: transform .5s ease-in;
+}
+
+.accordion__title {
+  color: var(--gray);
+}
+
+.accordion__list {
+  overflow: hidden;
+  max-height: 0;
+  display: flex;
+  gap: 23px;
+  transition: max-height 1.4s;
+}
+
+.accordion__item {
+  padding: 32px 28px 84px 28px;
+  margin-top: 56px;
+  border-radius: 8px;
+  background-color: var(--preferance-bg);
+  width: 228px;
+  transition: 0.4;
+}
+
+.accordion__item:hover {
+  opacity: 0.9;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+}
+
+.accordion__item:active {
+  background-color: var(--dark-cyan);
+  color: #fff;
+}
+
+
+.accordion__item-title {
+  margin-bottom: 24px;
+}
+
+.accordion__answer {
+  background-color: #2C343E;
+  color: #FFF;
+  padding: 27px 64px;
+  margin-bottom: 40px;
+}
+
+.accordion__answer span {
+  color: var(--dark-cyan);
+}
+
+.accordion__answer-text {
+  opacity: 0.5037;
+  line-height: 40px;
+  margin-bottom: 8px;
+}
+
+.answer__btn {
+  color: #FEFCF7;
+  line-height: normal;
+  font-family: 'Fraunces';
+  margin-left: auto;
+  width: 217px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 25px;
+  margin-bottom: 168px;
+}
+
+/* ACCORDION END */
